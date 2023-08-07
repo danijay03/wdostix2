@@ -1,0 +1,309 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+/*logo:*/
+.logomain{
+    margin-top: 0.5rem;
+    max-width: 15%;
+    max-height: 20%;
+    height: 1.5rem;
+    width: 1rem;
+    border-radius: 25%;
+}
+/*end of logo*/
+/*body:*/
+body{
+    background-image: url("tou3.jpg");
+    background-size: cover ;
+    background-color:rgb(0, 0, 0) ;
+    background-repeat: no-repeat;
+
+}
+/*end of body*/
+
+/*nav bar:*/
+nav{
+    overflow: hidden;
+    border: 535px;
+    width: 100%;
+    height: 65px;
+    line-height: 85px;
+    padding: 0px 150px;
+    position: fixed;
+    position: absolute;
+    background-image: linear-gradient(rgb(0,0,0), rgb(0,0,0));
+    text-align: center;
+    cursor: pointer;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+nav ul{
+    float: none;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    margin: 30px;
+}
+nav li a{
+    font-family:lucida, Handwriting,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: 12.5;/*as soon as i put pt the text dissapears*/
+    font-weight: bolder;
+    border-radius: 10px;
+    text-decoration: none;/*to remove the blue off the link+the underline*/
+    color:rgb(100,114,165)
+}
+
+/*nav hover animation*/
+nav.animation{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    transition: all .5s ease 0s;
+    border-radius: 8px;
+}
+a:nth-child(1) {
+    width: 100px;
+}
+a:nth-child(2) { 
+    width: 110px;
+}
+ a:nth-child(3) {
+width: 100px;
+ }
+a:nth-child(4) { 
+    width:160px;
+}
+a:nth-child(5) { 
+    width: 120px;
+}
+a:nth-child(6) { 
+    width: 120px;
+}
+nav start-home, a:nth-child(1):hover,animation {
+    width: 100px;
+    left: 0;
+     background-color: #1abc9c;
+    }
+    nav start-categories, a:nth-child(2):hover.animation {
+    width: 110px;
+    left: 100px;
+    background-color: #1abc9c;
+    }
+    nav.start-threats, a:nth-child(3):hover.animation {
+        width: 100px; 
+        left: 210px;
+        background-color: #1abc9c;
+    }
+    nav.start-purchdon, a:nth-child(4):hover.animation {
+        width: 160px;
+        left: 310px;
+        background-color: #1abc9c;
+    }
+    nav.start-hik, a:nth-child(5):hover.animation {
+        width: 120px; 
+        left: 470px;
+        background-color: #1abc9c;
+    }
+    nav.start-other, a:nth-child(6):hover.animation {
+        width: 120px; 
+        left: 470px;
+        background-color: #1abc9c;
+    }
+
+/*end of nav bar*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*images,headings and pictures in the body*/
+.content-items img{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.h1{
+    background-color: transparent;
+    font-size: 30pt;
+    color: #ffffff;
+
+}
+.h2{
+    background-color: transparent;
+    font-size: 30pt;
+    color: #ffffff;
+    width: 100%;
+
+}
+.p1{
+    width: 90%;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 10px;
+   font-size: 15pt;
+   font-weight: bold;
+   margin-left: 10px;
+   text-align: left;
+   background-position: left;
+   color: #ffffff;
+
+}
+.img-1 {
+    max-width: 10%;
+    max-height: 10%;
+    border: 110px black;
+
+}
+.p3{
+    width: 85%;
+    background-color: transparent;
+    border-radius: 0px;
+    margin-top: 0%;
+    padding: 10px;
+   font-size: 15pt;
+   font-weight: bold;
+   text-align: justify;
+   color: #ffffff;
+   /*margin-left: 225px;*/
+}
+.unorder{
+    margin-left: 20px;
+}
+.unorder-ul{
+    font-size: 16px;
+    background-color: transparent;
+    margin-left: 20px;
+}
+
+
+.container-1 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .container-1 img {
+    width: 60%;
+    height: 60%;
+  }
+  
+  .container-1 .text {
+    text-align: right;
+    margin-left: 20px;
+    width: 100%;
+  }
+  
+  .container-1 .text p {
+    font-size: 16px;
+    color: #ffffff;
+    width: 100%;
+  }
+
+ol{
+    font-size: 16px;
+    background-color: transparent;
+    margin-left: 20px;
+    
+}
+
+/*footer at the end of page */
+.hr{
+    background-color: #ffffff;
+}
+.footer{
+    overflow: hidden;
+    border: 535px;
+    width: 100%;
+    height: 65px;
+    line-height: 85px;
+    padding: 0px 150px;
+    position: fixed;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+}
+footer li{
+  padding: 0px 150px;
+}
+footer li a{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;/*to remove the blue off the link+the underline*/
+}
+footer li a:hover{
+  background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+    .footer {
+      flex-wrap: wrap;
+      padding: 10px;
+      height: auto;
+      line-height: normal;
+    }
+    .container-1,.p,.p1,.p3,ul,ol{
+      flex-wrap: wrap;
+      padding: 15px;
+      height: auto;
+      line-height: normal;
+      font-size: auto;
+    }
+    nav {
+      padding: 0 20px;
+    }
+  
+    nav li {
+      margin: 10px;
+    }
+  
+    nav li a {
+      font-size: 10px;
+    }
+  }
+
+
+
+
+
+
+

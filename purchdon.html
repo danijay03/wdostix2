@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UFT-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="all">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>turtle hatchlings sl purchase and donate page</title>
+    <link rel="stylesheet" href="purchdon.css">
+  </head>
+  <body>
+    <div class="logomain"><img src="logo.jpg" width="180" height="90" alt="logo"></div>
+    <br><br><br><br><br><br>
+      <nav>
+        <ul>
+          <li> <a class="active" href="index.html">  HOME   </a></li>
+          <li> <a class="active" href="categories.html">  CATEGORIES    </a></li>
+          <li> <a class="active" href="threats.html">  THREATS   </a></li>
+          <li> <a class="active" href="purchdon.html">  PURCHASE&DONATE  </a></li>
+          <li> <a class="active" href="hik.html">  HIKKADUWA  </a></li>
+          <li> <a class="active" href="other.html">  OTHER LOCATIONS   </a></li>
+        </ul>
+        <div class="animation start-home"></div>
+      </nav>
+        <br><br><br><br>
+        <h1>Turtle Purchase and Donate</h1>
+
+        <section class="products">
+          <div class="product">
+            <img src="plush.jpg" alt="Product 1">
+            <h2>turtle plushie</h2>
+            <p>a turtle plushie ;14 inches. 50% of the proceeds goes to help a turtle</p>
+            <a href="#" class="btn">Buy Now</a>
+          </div>
+      
+          <div class="product">
+            <img src="tee.jpg" alt="Product 2">
+            <h2>turtle printed tee-shirt</h2>
+            <p>a turtle printed tee-shirt ;sizes : xs,s,m,l,xl and xxl available. 50% of the proceeds goes to help a turtle.</p>
+            <a href="#" class="btn">Buy Now</a>
+          </div>
+      
+          <div class="product">
+            <img src="bag.jpg" alt="Product 3">
+            <h2>turtle tote bag</h2>
+            <p>a turtle printed tote bag . 50% of the proceeds goes to help a turtle.</p>
+            <a href="#" class="btn">Buy Now</a>
+          </div>
+
+          <div class="product">
+            <img src="giftbox.jpg" alt="Product 4">
+            <h2>turtle giftbox</h2>
+            <p>a turtle giftbox ; includes 2 plushies,a turtle teeshirt and a save the turtles mug. 50% of the proceeds goes to help a turtle.</p>
+            <a href="#" class="btn">Buy Now</a>
+          </div>
+        </section>
+       <!--start of forms-->
+        <div class="container">
+          <div class="form-wrapper">
+            <form action="submit.php" method="post" class="form purchase-form">
+              <h2>Purchase</h2>
+              <div class="form-group">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="item">Item:</label>
+                <input type="text" id="item" name="item" required>
+              </div>
+              <div class="form-group">
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" required>
+              </div>
+              <div class="form-group">
+                <input type="submit" value="Purchase">
+              </div>
+            </form>
+      
+            <form action="submit.php" method="post" class="form donate-form">
+              <h2>Donate</h2>
+              <div class="form-group">
+                <label for="donation-amount">Donation Amount:</label>
+                <input type="number" id="donation-amount" name="donation-amount" min="500.00" required>
+              </div>
+              <div class="form-group">
+                <label for="donor-name">Your Name:</label>
+                <input type="text" id="donor-name" name="donor-name" required>
+              </div>
+              <div class="form-group">
+                <label for="donor-email">Your Email:</label>
+                <input type="email" id="donor-email" name="donor-email" required>
+              </div>
+              <div class="form-group">
+                <input type="submit" value="Donate">
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <form action="submit.php" method="post">
+
+          <!-- Payment Information Section -->
+          <h2>Payment Information</h2>
+          <div class="form-group">
+          <label for="card-number">Card Number:</label>
+          <input type="text" id="card-number" name="card-number" required>
+          </div>
+          <div class="form-group">
+          <label for="expiry-date">Expiry Date:</label>
+          <input type="text" id="expiry-date" name="expiry-date" required>
+          </div>
+          <div class="form-group">
+          <label for="cvv">CVV:</label>
+          <input type="text" id="cvv" name="cvv" required>
+          </div>
+          <div class="form-group">
+            <input type="submit" value="pay">
+          </div>
+          </form>
+      <!--end of forms-->
+        <br><br>
+        <hr>
+        <div class="footer">
+          <p>&copy; 2023 DANELLA JAYASURIYA'S TURTLE HATCHERY WEBSITE. All rights reserved.</p>
+          <ul>
+            <li> <a  href="index.html">  HOME   </a></li>
+            <li> <a  href="categories.html">  CATEGORIES    </a></li>
+            <li> <a  href="threats.html">  THREATS   </a></li>
+            <li> <a  href="purchdon.html">  PURCHASE&DONATE  </a></li>
+            <li> <a  href="hik.html">  HIKKADUWA  </a></li>
+            <li> <a  href="other.html">  OTHER LOCATIONS   </a></li>
+        </ul>
+            <!--links to all info and pics used in this page-->
+        </div>
+    </body>
+</html>

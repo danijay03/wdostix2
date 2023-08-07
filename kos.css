@@ -1,0 +1,297 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+/*logo:*/
+.logomain{
+    margin-top: 8px;
+    max-width: 15%;
+    max-height: 20%;
+    height: 25px;
+    width: 15px;
+    border-radius: 25%;
+    
+}
+head{
+  background-color: antiquewhite;
+}
+/*body:*/
+body{
+    background-image: url("turtundero.jpg");
+    background-size: cover ;
+    background-color:rgb(32,81,52) ;
+    background-repeat: no-repeat;
+}
+/*search bar*/
+.search-container{
+    display: flex;
+    margin-left: 85%;
+}
+input[type=text]{
+    padding: 15px;
+    border: none;
+    margin-right: 10px;
+}
+button[type=submit]{
+    background-color: bisque;
+    color:rgb(0,0,0);
+    border: 10px;
+    cursor:pointer;
+}
+button[type=submit]:hover{
+    background-color: black;
+}
+/*nav bar:*/
+nav ul {
+    list-style: none;
+    margin: 50px;
+    padding: 10px;
+    background-color: #661ddb;
+    justify-content: space-around;
+    display: flex;
+  }
+  nav ul li {
+    display: inline-block;
+    align-self: center;
+    align-content: center;
+  }
+  nav ul li a {
+    display: inline;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15pt;
+  }
+  nav ul li a:hover {
+    background-color: #4e2182;
+    transition: background-color 0.3s ease;
+  }
+/* end of navbar */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ h1{
+  background-color: #555;
+  color: #ffffff;
+  align-content: center;
+  width: 50%;
+  font-size: 25pt;
+ }
+.container-1 {
+  display: flex;
+}
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.image-container img {
+  width: 45%;
+  max-width: 100%;
+  height: auto;
+}
+
+.pic2-container{
+  position: relative;
+  width: 50px;
+  margin-left: 35%;
+  
+}
+.pic2-image{
+  display: flex;
+  border-radius: 5%;
+  border: 2px solid black;
+  width: 50pt;
+  height: 45pt;
+}
+.pic2-image:hover{
+  transform: scale(1.1);
+  z-index: 2;
+}
+
+.section-2 {
+  display: flex;
+  align-items: center;
+  
+}
+
+.section-2 img {
+  width: 20%;
+  height: 20%;
+}
+
+.section-2 .text-2 {
+  text-align: right;
+  margin-left: 20px;
+  width: 100%;
+  color: #fff;
+  background-color: black;
+  font-size: 25pt;
+}
+
+.section-2 .text p {
+  font-size: 16px;
+  color: #e74528;
+  background-color: #ffffff;
+  width: 100%;
+  
+}
+
+.container {
+  width: 100%;
+  height: 20%;
+  text-align: center;
+  margin-top: 50px;
+  color: #661ddb;
+  background-color: black;
+}
+/* animation starts */
+@keyframes fadeInLoop {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.fade-in {
+  opacity: 0;
+  animation: fadeInLoop 10s infinite;
+  color: #e74528;
+  font-size: 16pt;
+}
+@media only screen and (max-width: 480px) {
+  .fade-in {
+    animation-duration: 10s; 
+    font-size: 12pt; /* Adjust font size for smaller screens */
+  }
+}
+/* animation ends */
+.p2{
+  background-color: #661ddb;
+  color: #fff;
+  align-content: center;
+  font-size: 25pt;
+}
+/*map:*/
+.map-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 aspect ratio (change this value as needed) */
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hr{
+  background-color: #ffffff;
+}
+/*footer at the end of page */
+.footer{
+    overflow: hidden;
+    border: 535px;
+    width: 100%;
+    height: 65px;
+    line-height: 85px;
+    padding: 0px 150px;
+    position: fixed;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+}
+.footer-p{
+  color: white;
+  background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-wrap: wrap;
+    padding: 10px;
+    height: auto;
+    line-height: normal;
+  }
+  .container-1,.pic1-container,.pic2-container,.section-2,.p2{
+    flex-wrap: wrap;
+      padding: 10px;
+      height: auto;
+      line-height: normal;
+      font-size: auto;
+  }
+  .section-2 img{
+    flex-wrap: wrap;
+    padding: 10px;
+    height: 50%;
+    width: 50%;
+  }
+
+}
+
+/* Nav bar styles for smaller screens */
+@media screen and (max-width: 600px) {
+  .nav-bar {
+    background-color: #555;
+    padding: 5px;
+  }
+
+  .nav-bar a {
+    margin-right: 5px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .map-container {
+    padding-top: 75%; /* Adjust the aspect ratio for smaller screens */
+  }
+  .image-container {
+    flex-direction: column;
+  }
+  
+  .image-container img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+ /* end of footer */

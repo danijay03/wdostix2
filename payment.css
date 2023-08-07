@@ -1,0 +1,186 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: transparent;
+}
+.upper-container{
+    background-color: #121416;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.upper-container h1,
+.upper-container p{
+    margin-top: 20px;
+    color: #f0f0f0;
+    flex-basis: 45%;
+    text-decoration: none;
+    margin-left: -1350px;
+}
+
+
+/*logo:*/
+.logomain{
+    margin-top: 0.5rem;
+    max-width: 15%;
+    max-height: 20%;
+    height: 1.5rem;
+    width: 1rem;
+    border-radius: 25%;
+}
+/*end of logo*/
+.home-button-a{
+    width: 100%;
+    background-color: #121416;
+    padding-bottom: 2%;
+    padding-left: 3%;
+}
+.home-button {
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+    background-color: #101113;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.home-button:hover {
+    background-color: #13477D;
+}
+
+
+/*body:*/
+body{
+    background-size: cover ;
+    background-color:#2f2f31;
+    background-repeat: no-repeat;
+
+}
+/*end of body*/
+.header{
+    /*align-items: right;*/
+    color: #f0f0f0;
+    text-align: center;
+    
+}
+
+#turtle {
+    position: absolute;
+    width: auto;
+    height: 100px;
+    top: calc(35% - 50px);
+    left: 100px;
+}
+
+
+.card1{
+    background-color: white;
+    color: #101113;
+    width: 400px;
+
+}
+
+
+/*updated summary table's css*/
+.summaryUp{
+    border-collapse: collapse;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-left: 740px;
+}
+.summaryUp th{
+    width: 300px;
+    margin: auto;
+    padding: 5px;
+    background-color: #9b9898;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    border: 1px solid black;
+    position: relative;
+    text-align: left;
+    align-content: center;
+}
+.summaryUp td{
+    width: 300px;
+    margin: auto;
+    padding: 5px;
+    background-color: #f0f0f0;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    border: 1px solid black;
+    position: relative;
+    text-align: left;
+    align-content: center;
+}
+
+
+
+
+
+
+.card1 {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    display: none;
+    background-color: #13477D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    opacity: 0.8;
+}
+
+input.invalid {
+    border-color: red;
+}
+
+input.valid {
+    border-color: green;
+}
+
+.error {
+    color: red;
+    height: 15px;
+    margin: 2px 0;
+}
+
+.nextbutton {
+    display: none;
+    font-size: 16px;
+    color: white;
+    background-color: #121416;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.nextbutton:hover {
+    background-color: #13477D;
+}
